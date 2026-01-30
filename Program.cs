@@ -4,11 +4,11 @@ using Microsoft.Extensions.Hosting;
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
-int GCD(int a, int b)
+long GCD(long a, long b)
 {
     while(b!= 0)
     {
-        int temp = b;
+        long temp = b;
         b = a % b;
         a = temp;
     }
@@ -18,13 +18,13 @@ int GCD(int a, int b)
 
 app.MapGet("/shababaffanul_gmail_com", (string? x, string? y) =>
 {
-    if(!int.TryParse(x, out int x_nat) || !int.TryParse(y,out int y_nat))
+    if(!long.TryParse(x, out long x_nat) || !long.TryParse(y,out long y_nat))
         return Results.Text("NaN", "text/plain");
     if(x_nat <= 0 || y_nat <= 0)
         return Results.Text("NaN", "text/plain");
     
-    int gcd = GCD(x_nat, y_nat);
-    int lcm = (x_nat / gcd) * y_nat;
+    long gcd = GCD(x_nat, y_nat);
+    long lcm = (x_nat / gcd) * y_nat;
 
     return Results.Text(lcm.ToString(), "text/plain");
 });
