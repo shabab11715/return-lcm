@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task3LCM", "Task3LCM.csproj", "{7E8CAF11-BB6E-50CA-5160-D0DC9A8F1A5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E8CAF11-BB6E-50CA-5160-D0DC9A8F1A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E8CAF11-BB6E-50CA-5160-D0DC9A8F1A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E8CAF11-BB6E-50CA-5160-D0DC9A8F1A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E8CAF11-BB6E-50CA-5160-D0DC9A8F1A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D785892-C486-4162-820E-8E04F620C266}
+	EndGlobalSection
+EndGlobal
